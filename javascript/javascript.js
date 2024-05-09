@@ -18,5 +18,5 @@ if(età < 18){
 } else {
     prezzoFinale = prezzo;
 }
-document.getElementById("output").innerHTML = prezzoFinale;
-console.log(chilometri, età, prezzo, prezzoFinale);
+document.getElementById("output").innerHTML = prezzoFinale.toFixed(2);
+console.log(chilometri, età, prezzo, prezzoFinale.toFixed(2), prezzoFinale);
