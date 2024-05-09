@@ -16,7 +16,7 @@ if(età < 18){
     sconto = (prezzo/100) * 42;
     prezzoFinale = prezzo - sconto;
 } else {
-    console.log(prezzo)
+    prezzoFinale = prezzo;
 }
 
 console.log(chilometri, età, prezzo, prezzoFinale);
